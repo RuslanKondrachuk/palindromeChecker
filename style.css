@@ -60,6 +60,11 @@ header p {
     background: #aa57cc;
     pointer-events: none;
 }
+.inputs button.active {
+    opacity: 1;
+    pointer-events: auto;
+
+}
 .info-txt {
     display: none;
     font-size: 19px;
