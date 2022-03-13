@@ -1,23 +1,23 @@
-/* Import Google Font - Poppins */
+/* Import Google Font - Fedorka */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Fredoka', sans-serif;
 }
 body {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #aa57cc;
+    background: #9ADCFF;
 }
 .wrapper {
     max-width: 500px;
-    background: #fff;
+    background: #FFF89A;
     border-radius: 7px;
     padding: 20px 25px 15px;
 }
@@ -40,7 +40,7 @@ header p {
     font-size: 19px;
     padding: 0 17px;
     border-radius: 5px;
-    border: 1px solid #999;
+    border: none;
     transition: 0.5s linear;
 }
 .inputs input:focus {
@@ -55,9 +55,9 @@ header p {
     cursor: pointer;
     margin-top: 20px;
     font-size: 17px;
-    color: #fff;
+    color: #FFF89A;
     border-radius: 5px;
-    background: #aa57cc;
+    background: #9ADCFF;
     pointer-events: none;
 }
 .inputs button.active {
@@ -73,5 +73,5 @@ header p {
 }
 
 .info-txt span {
-    color: #aa57cc;
+    color: #9ADCFF;
 }
